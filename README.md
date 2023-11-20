@@ -1,7 +1,25 @@
-# Uniswap V3 Subgraph
+# U2U Swap V3 Subgraph
 
 ### Subgraph Endpoint 
 
-Synced at: https://thegraph.com/hosted-service/subgraph/ianlapham/uniswap-v3-subgraph?selected=playground
+## INSTALL GRAPH CLI
 
-Pending Changes at same URL
+You can install Graph CLI with either npm or yarn.
+```
+yarn
+```
+
+## INIT
+
+Initialize your subgraph.
+```
+npm run create
+```
+### BUILD SUBGRAPH
+```
+npm codegen && npm build
+```
+### DEPLOY SUBGRAPH
+```
+npm deploy
+```
